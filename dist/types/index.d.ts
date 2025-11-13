@@ -113,13 +113,13 @@ export interface Battle<T extends BaseTeam> {
     points: number;
 }
 export interface TotemFusion {
-    skill: string;
-    level: number;
+    skill: string | null;
+    level: number | null;
 }
 export interface TotemWithNoFusion {
-    totemType: string;
-    stars: number;
-    level: number;
+    totemType?: string;
+    stars: number | null;
+    level: number | null;
 }
 export interface Totem extends TotemWithNoFusion {
     fusion: TotemFusion[];
