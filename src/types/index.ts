@@ -141,8 +141,8 @@ export interface TotemFusion {
 
 export interface TotemWithNoFusion {
   totemType?: string;
-  stars: number;
-  level: number;
+  stars: number | null;
+  level: number | null;
 }
 
 export interface Totem extends TotemWithNoFusion {
