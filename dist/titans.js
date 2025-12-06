@@ -20,6 +20,7 @@ export const allTitans = [
     { id: 19, name: "Iyari", short: "Iya" },
     { id: 20, name: "Solaris", short: "Sol" },
     { id: 21, name: "Verdoc and Phyto", short: "Ver" },
+    { id: 22, name: "Asherona and Pyro", short: "Ash" }
 ].sort((a, b) => {
     return a.name.toLowerCase().localeCompare(b.name.toLowerCase());
 });
