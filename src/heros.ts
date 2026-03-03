@@ -69,6 +69,7 @@ export const countersByIndex: CountersByIndex = {
   "67": [],
   "68": [],
   "69": [],
+  "70": []
 };
 
 export const sortHerosByName = (heros: Hero[]): Hero[] => {
