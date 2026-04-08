@@ -422,5 +422,19 @@ export const allHeros: Hero[] = sortHerosByName([
     name: "Cascade",
     short: "Cas",
   },
-  { id: 70, name: "Fluffy", short: "Flu" },
+    {
+        id: 70,
+        name: "Fluffy",
+        short: "Flu"
+    },
+    {
+        id: 70,
+        name: "Fluffy",
+        short: "Flu"
+    },
+    {
+        id:71,
+        name: "Byrna",
+        short: "Byr"
+    }
 ]);
